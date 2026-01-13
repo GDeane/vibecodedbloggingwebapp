@@ -10,7 +10,8 @@
     "prisma:generate": "prisma generate",
     "prisma:migrate": "prisma migrate dev --name init",
     "prisma:studio": "prisma studio",
-    "prisma:db-push": "prisma db push"
+    "prisma:db-push": "prisma db push",
+    "seed": "node scripts/seed.mjs"
   },
   "dependencies": {
     "@prisma/client": "^4.15.0",
@@ -20,7 +21,7 @@
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
-    "@types/node": "^20",
+    "@types-node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "babel-plugin-react-compiler": "1.0.0",
